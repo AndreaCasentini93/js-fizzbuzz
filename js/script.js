@@ -16,8 +16,6 @@ function functionFizzBuzz() {
         
         }
 
-    } else {
-        document.getElementById("fizz_buzz").innerHTML = "";
     }
 
 }
