@@ -37,6 +37,9 @@ body {
   padding-top: 50px;
   font-size: 70px;
 }
+#container ul {
+  list-style: none;
+}
 #container button {
   padding: 10px 15px;
   border: 2px solid #ffffff;

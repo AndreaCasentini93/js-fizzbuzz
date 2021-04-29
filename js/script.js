@@ -5,13 +5,13 @@ function functionFizzBuzz() {
         for ( i=1 ; i<=100 ; i++ ) {
 
             if ((i % 3 == 0) && (i % 5 == 0)) {
-                document.getElementById("fizz_buzz").innerHTML += "<span id=\"fizzbuzz\">FizzBuzz</span>" + "<br>";
+                document.getElementById("fizz_buzz").innerHTML += "<li>" + "<span id=\"fizzbuzz\">FizzBuzz</span>" + "</li>";
             } else if (i % 3 == 0) {
-                document.getElementById("fizz_buzz").innerHTML += "<span id=\"fizz\">Fizz</span>" + "<br>";
+                document.getElementById("fizz_buzz").innerHTML += "<li>" + "<span id=\"fizz\">Fizz</span>" + "</li>";
             } else if (i % 5 == 0) {
-                document.getElementById("fizz_buzz").innerHTML += "<span id=\"buzz\">Buzz</span>" + "<br>";
+                document.getElementById("fizz_buzz").innerHTML += "<li>" + "<span id=\"buzz\">Buzz</span>" + "</li>";
             } else {
-                document.getElementById("fizz_buzz").innerHTML += i + "<br>";
+                document.getElementById("fizz_buzz").innerHTML += "<li>" + i + "</li>";
             }
         
         }
