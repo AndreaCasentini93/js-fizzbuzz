@@ -20,6 +20,7 @@
 }
 
 body {
+  display: flex;
   width: 100%;
   min-height: 100vh;
   text-align: center;
@@ -29,12 +30,14 @@ body {
   background-color: #000000;
 }
 
-h1 {
+#container {
+  margin: auto;
+}
+#container h1 {
   padding-top: 50px;
   font-size: 70px;
 }
-
-button {
+#container button {
   padding: 10px 15px;
   border: 2px solid #ffffff;
   border-radius: 10px;
@@ -46,7 +49,7 @@ button {
   cursor: pointer;
   transition: transform .2s;
 }
-button:hover {
+#container button:hover {
   transform: scale(1.05);
 }
 
