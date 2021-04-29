@@ -56,7 +56,8 @@ button:hover {
 h1 #fizzbuzz {
   animation-name: title1;
   animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   animation-direction: alternate;
 }
 @keyframes title1 {
@@ -79,7 +80,8 @@ h1 #fizzbuzz {
 h1 #fizz {
   animation-name: title2;
   animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   animation-direction: alternate;
 }
 @keyframes title2 {
@@ -102,7 +104,8 @@ h1 #fizz {
 h1 #buzz {
   animation-name: title3;
   animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
   animation-direction: alternate;
 }
 @keyframes title3 {
