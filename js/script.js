@@ -2,7 +2,7 @@ function functionFizzBuzz() {
 
     if (document.getElementById("fizz_buzz").innerHTML == "") {
 
-        for ( i=1 ; i<=100 ; i++ ) {
+        for (var i=1 ; i<=100 ; i++ ) {
 
             if ((i % 3 == 0) && (i % 5 == 0)) {
                 document.getElementById("fizz_buzz").innerHTML += "<li>" + "<span id=\"fizzbuzz\">FizzBuzz</span>" + "</li>";
